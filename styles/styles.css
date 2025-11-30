@@ -30,7 +30,7 @@ h1 {
 td {
     padding-left: 1em;
     padding: 0.375em;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: left;
     color: var(--main-text);
 }
