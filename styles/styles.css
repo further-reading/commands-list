@@ -70,6 +70,9 @@ main {
 
 p {
     margin: 0.5em;
+    border: 1px solid var(--main-text);
+    border-radius: 0.5em;
+    padding: 0.5em;
 }
 
 main section {
@@ -78,6 +81,12 @@ main section {
     background-color: var(--secondary-bg);
     border-radius: 0.5em;
     color: var(--main-text);
+}
+
+@media (max-width: 768px) {
+    main section {
+        text-align: center;
+    }
 }
 
 section > h1 {
